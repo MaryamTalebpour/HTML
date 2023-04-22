@@ -1,0 +1,19 @@
+html {
+    font-size: 22px;
+}
+body {
+    background-color: rgb(99, 102, 94);
+    color: rgb(8, 37, 116);
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green
+}
