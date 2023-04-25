@@ -2,114 +2,205 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="Maryam Talebpour" />
-  <meta name="description" content="this page contains all the things i am learning  how to creat as i learn HTML" />
+  <meta charset="UTF-8">
+  <meta name="author" content="Maryam Talebpour" >
+  <meta name="description" content="this page contains all the things i am learning  how to creat as i learn HTML" >
   <title>My First Web Page</title>
-  <link rel="icon" href="./img/download.png" type="image/x-icon" />
-  <link rel="stylesheet" href="./main.css" type="text/css" />
+  <link rel="icon" href="./img/download.png" type="image/x-icon" >
+  <link rel="stylesheet" href="./main.css" type="text/css" >
 </head>
 
 <body>
   <header>
-  <h1>My goals for the year</h1>
 
-  <nav>
-    <ul>
-      <li>
-        <a href="#html"> learning HTML</a>
-      </li>
+    <h1>My goals for the year</h1>
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li>
+          <a href="#html"> learning HTML</a>
+        </li>
 
-      <li>
-        <a href="#vacation"> planning a vacation</a>
-      </li>
-    </ul>
-  </nav>
-  
-</header>
+        <li>
+          <a href="#vacation"> planning a vacation</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
 
   <hr>
 
-  <section id="html">
-    <h2>I'm ready to learn HTML</h2>
-    <p>this is my first web page.</p>
+  <main>
 
-    <img src="./img/download.png" alt="HTML5 LOGO" title="I am learning HTML5" width="300" height="300" />
+    <article id="html">
 
-    <figure>
-      <figcaption>An example of HTML5 code</figcaption>
-      <p>
-        <code> &lt;h1&gt; Hello World! &lt;/h1&gt; </code>
-      </p>
-    </figure>
+      <h2>I'm ready to learn HTML</h2>
+      <p>this is my first web page.</p>
 
-    <h3>My daily schedule</h3>
-    <p>let me tell you how :</p>
-    <ol>
-      <li>... I learn more about web dev.</li>
-      <li>... i plan Out my schedule.</li>
-      <li>
-        ... I use resources from
-        <abbr title="Mozilla developer network">
-          <a href="https://developer.mozilla.org/en-US/">MDN</a> </abbr>.
-      </li>
-    </ol>
-  </section>
+      <section>
 
-  <hr />
+        <h3>HTML 5</h3>
 
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <img src="./img/download.png" alt="HTML5 LOGO" title="I am learning HTML5" width="300" height="300" >
 
-  <section id="vacation">
-    <h2>I am also planning a vacation</h2>
-    <p>i have been working hard and <em> really need a getaway. </em></p>
-    <p>i live in ks so i want visit a beach.</p>
-
-    <h3>place i'd like to visit</h3>
-
-    <ul>
-      <li>
-        <p>i've <strong> heard good things </strong> about the caribbean.</p>
         <figure>
-          <img
-            src="./img/beach-background-beautiful-beach-landscape-tropical-nature-scene-palm-trees-blue-sky-summer-holiday-vacation-concept-93725354.jpg"
-            alt="caribean Beach" title="i want to visit a caribbean beach." width="200" height="200" loading="eager" />
-
-          <figcaption>caribean beach getaway.</figcaption>
+          <figcaption>An example of HTML5 code</figcaption>
+          <p>
+            <code> &lt;h1&gt; Hello World! &lt;/h1&gt; </code>
+          </p>
         </figure>
-      </li>
 
-      <li>
-        <address>colonia morelos, mexico 77580</address>
-        <figure>
-          <img src="./img/images.jpeg" alt="cancun vacation" title="it's 5 o'clock somewhere!" loading="lazy" />
-          <figcaption>A caribbean vacation image</figcaption>
-        </figure>
-      </li>
-    </ul>
+      </section>
 
-    <!-- TODO : Add more places -->
+      <section>
 
-    <h3>places i want to avoid</h3>
-    <dl>
-      <dt>north pole</dt>
-      <dd>i hear this is <strong>cold</strong></dd>
+        <h3>My daily schedule</h3>
+        <p>let me tell you how :</p>
+        <ol>
+          <li>... I learn more about web dev.</li>
+          <li>... i plan Out my schedule.</li>
+          <li>
+            ... I use resources from
+            <abbr title="Mozilla developer network">
+              <a href="https://developer.mozilla.org/en-US/">MDN</a> </abbr>.
+          </li>
+        </ol>
 
-      <dt>south pole</dt>
-      <dd>this is also cold.</dd>
+        <aside>
+          <details>
+            <summary> Guess the <mark> number of hours </mark> i code per day</summary>
+            <p> I start at <time datetime="08:00"> 8 am </time> and i write code for <time datetime="PT3H">3 hours </time> every morning.</p>
+          </details>
+        </aside>
 
-      <dt>Mountain Tops</dt>
-      <dd>these are also cold</dd>
-    </dl>
-  </section>
+        <br>
 
-  <hr />
+        <table>
+          <caption> My Daily Schedule</caption>
+          <thead>
+          <tr>
+            <th scope="col"> &nbsp;</th>
+            <th>time</th>
+            <th>active</th>
+            
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">morning</th>
+            <td>
+              <time datetime="08:00"> 8 am </time>
+              <time datetime="11:00"> 11 am</time>
+            </td>
+            <td> write code </td>
+          </tr>
 
-  &lt;&lt;&lt;&copy; <a href="about.html"> Maryam Talebpour </a> &gt;&gt;&gt;
+          <tr>
+            <th scope="row">Break</th>
+            <td>
+              <time datetime="11:00"> 11 am </time>
+              <time datetime="12:00"> 12 pm</time>
+            </td>
+            <td> eat lunch </td>
+          </tr>
 
-  <p>
-    <a href="#"> Back to Top </a>
-  </p>
+          <tr>
+            <th scope="row">Afternoon</th>
+            <td>
+              <time datetime="12:00"> 12 pm </time>
+              <time datetime="17:00"> 5 pm</time>
+            </td>
+            <td> study for other courses </td>
+          </tr> 
+          <tr>
+            <th scope="row">Evening</th>
+            <td rowspan="2">All other Times</td>
+            <td> Free Time</td>
+          </tr>
+          <tr>
+            <th scope="row">Night</th>
+            <td>Sleep</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"> And that's what I do every day, 5 days a week. just eat, sleep, code ... and recharge!
+
+            </td>
+          </tr>
+        </tfoot>
+        </table>
+
+      </section>
+
+    </article>
+
+    <hr>
+
+    <article id="vacation">
+      <h2>I am also planning a vacation</h2>
+      <p>i have been working hard and <em> really need a getaway. </em></p>
+      <p>i live in ks so i want visit a beach.</p>
+
+      <section>
+      <h3>place i'd like to visit</h3>
+
+      <ul>
+        <li>
+          <p>i've <strong> heard good things </strong> about the caribbean.</p>
+          <figure>
+            <img
+              src="./img/beach-background-beautiful-beach-landscape-tropical-nature-scene-palm-trees-blue-sky-summer-holiday-vacation-concept-93725354.jpg"
+              alt="caribean Beach" title="i want to visit a caribbean beach." width="200" height="200"
+              loading="eager">
+
+            <figcaption>caribean beach getaway.</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <address>colonia morelos, mexico 77580</address>
+          <figure>
+            <img src="./img/images.jpeg" alt="cancun vacation" title="it's 5 o'clock somewhere!" loading="lazy" >
+            <figcaption>A caribbean vacation image</figcaption>
+          </figure>
+        </li>
+      </ul>
+      </section>
+
+      <!-- TODO : Add more places -->
+
+      <section>
+
+        <h3>places i want to avoid</h3>
+        <dl>
+          <dt>north pole</dt>
+          <dd>i hear this is <strong>cold</strong></dd>
+
+          <dt>south pole</dt>
+          <dd>this is also cold.</dd>
+
+          <dt>Mountain Tops</dt>
+          <dd>these are also cold</dd>
+        </dl>
+      </section>
+
+    </article>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>
+      &lt;&lt;&lt;&copy; <a href="about.html"> Maryam Talebpour </a> &gt;&gt;&gt;
+    </p>
+
+    <p>
+      <a href="#"> Back to Top </a>
+    </p>
+  </footer>
+
 </body>
 
 </html>
